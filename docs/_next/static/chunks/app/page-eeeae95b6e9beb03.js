@@ -1,9 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[931],{4441:function(e,n,t){Promise.resolve().then(t.bind(t,4052))},4052:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return i}});var r=t(2236),o=t(9555);let u=o.createContext({});function s(e){let n=o.useContext(u);return o.useMemo(()=>"function"==typeof e?e(n):{...n,...e},[n,e])}function c(e){let n=Object.assign({h1:"h1"},s(),e.components);return(0,r.jsx)(n.h1,{children:"一个名叫「哆叽」的项目无人问津"})}var f=function(e={}){let{wrapper:n}=Object.assign({},s(),e.components);return n?(0,r.jsx)(n,Object.assign({},e,{children:(0,r.jsx)(c,e)})):c(e)};function i(){return(0,r.jsx)(f,{})}},1167:function(e,n,t){"use strict";/**
- * @license React
- * react-jsx-runtime.production.min.js
- *
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */var r=t(9555),o=Symbol.for("react.element"),u=(Symbol.for("react.fragment"),Object.prototype.hasOwnProperty),s=r.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,c={key:!0,ref:!0,__self:!0,__source:!0};n.jsx=function(e,n,t){var r,f={},i=null,l=null;for(r in void 0!==t&&(i=""+t),void 0!==n.key&&(i=""+n.key),void 0!==n.ref&&(l=n.ref),n)u.call(n,r)&&!c.hasOwnProperty(r)&&(f[r]=n[r]);if(e&&e.defaultProps)for(r in n=e.defaultProps)void 0===f[r]&&(f[r]=n[r]);return{$$typeof:o,type:e,key:i,ref:l,props:f,_owner:s.current}}},2236:function(e,n,t){"use strict";e.exports=t(1167)}},function(e){e.O(0,[763,895,744],function(){return e(e.s=4441)}),_N_E=e.O()}]);

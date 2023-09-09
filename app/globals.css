@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+p>img {
+  margin: 0px auto;
+}
+
+p>span {
+  display: block;
+}

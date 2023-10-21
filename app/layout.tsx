@@ -13,6 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="zh-CN">
+      <head>
       <Script
         strategy="beforeInteractive"
         async
@@ -28,26 +29,29 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-NKLTP9H6LC');
             `}
       </Script>
+      </head>
 
       <body>
-        <nav className="flex items-center justify-between flex-wrap bg-neutral-500 p-6">
-          <div className="flex items-center flex-shrink-0 text-white mr-6">
-            <span className="font-semibold text-xl tracking-tight">
-              车万皇帝纪行
-            </span>
-          </div>
+        <nav className="bg-red-600 px-6 shadow-xl">
+          <div className="container flex items-center justify-between flex-wrap mx-auto md:px-8">
+            <div className="flex items-center flex-shrink-0 text-white mr-6 py-6">
+              <span className="font-semibold text-2xl tracking-tight">
+                车万皇帝纪行
+              </span>
+            </div>
 
-          <div>
-            <a
-              className="text-white"
-              target="_blank"
-              href="https://github.com/touhou-emperor/touhou-emperor.github.io">
-              来Github添砖加瓦
-            </a>
+            <div className="py-6">
+              <a
+                className="no-underline py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-red-400 rounded-lg hover:bg-red-200 hover:text-red-700 focus:z-10 focus:ring-4 focus:ring-gray-200 transition"
+                target="_blank"
+                href="https://github.com/touhou-emperor/touhou-emperor.github.io">
+                来Github添砖加瓦
+              </a>
+            </div>
           </div>
         </nav>
 
-        <div className="container mx-auto p-8">{children}</div>
+        <div className="container mx-auto pt-4">{children}</div>
       </body>
     </html>
   );
